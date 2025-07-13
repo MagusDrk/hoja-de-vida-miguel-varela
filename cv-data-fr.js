@@ -10,7 +10,7 @@ const cvDataFr = {
       "marital_status": "Mariage catholique",
       "children": "Deux filles"
     },
-    "summary": "Je suis un développeur Full-Stack expérimenté avec une formation en ingénierie informatique et un master en design graphique numérique. Je suis passionné par le développement de logiciels et j'ai de l'expérience à la fois dans les technologies de frontend et de backend. Mes compétences incluent PHP, Java, MySQL, JavaScript, HTML, CSS et plusieurs frameworks tels que Laravel, React, Angular, entre autres. Mes compétences en design complètent mon expérience en développement, offrant une perspective riche en UI/UX et améliorant l'interaction avec les utilisateurs. Je suis familiarisé et applique des méthodologies d'idéation telles que le Design Centré sur l'Utilisateur (HCD) et le Design Thinking. Je parle espagnol, anglais courant et français conversationnel.",
+    "summary": "Je suis un Développeur Full-Stack expérimenté avec une formation en ingénierie informatique et Master en design graphique numérique. Je suis passionné par le développement de logiciels et j'ai de l'expérience à la fois dans les technologies de frontend et de backend. Mes compétences incluent PHP, MySQL, JavaScript, HTML, CSS et plusieurs frameworks tels que Laravel, React, Angular, entre autres. Mes compétences en design complètent mon expérience en développement, offrant une perspective riche en UI/UX et améliorant l'interaction avec les utilisateurs. Je suis familiarisé et applique des méthodologies d'idéation telles que le Design Centré sur l'Utilisateur (HCD) et le Design Thinking. Je parle espagnol, anglais courant et français conversationnel.",
   },
   "languages": [
     {
@@ -28,7 +28,6 @@ const cvDataFr = {
   ],
   "technical_skills": [
     "PHP",
-    "Java",
     "JavaScript",
     "TypeScript",
     "Python",

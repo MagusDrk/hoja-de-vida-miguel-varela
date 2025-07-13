@@ -10,7 +10,7 @@ const cvDataEn = {
       "marital_status": "Catholic Marriage",
       "children": "Two daughters"
     },
-    "summary": "I am an experienced Full-Stack Developer with a background in Computer/Informatics Engineering and a Master’s in Digital Graphic Design. I am passionate about Software Development and have experience in both frontend and backend technologies. My proficiency includes PHP, Java, MySql, JavaScript, HTML, CSS, and several frameworks like Laravel, React, Angular, and more. My design skills complement my development expertise, providing a rich perspective on UI/UX and enhancing user interactions. I am familiar with and apply ideation methodologies such as Human-Centered Design and Design Thinking. I speak Spanish natively, English fluently, and conversational French.",
+    "summary": "I am an experienced Full-Stack Developer with a background in Computer/Informatics Engineering and Master’s in Digital Graphic Design. I am passionate about Software Development and have experience in both frontend and backend technologies. My proficiency includes PHP, MySql, JavaScript, HTML, CSS, and several frameworks like Laravel, React, Angular, and more. My design skills complement my development expertise, providing a rich perspective on UI/UX and enhancing user interactions. I am familiar with and apply ideation methodologies such as Human-Centered Design and Design Thinking. I speak Spanish natively, English fluently, and conversational French.",
   },
   "languages": [
     {
@@ -28,7 +28,6 @@ const cvDataEn = {
   ],
   "technical_skills": [
     "PHP",
-    "Java",
     "JavaScript",
     "TypeScript",
     "Python",
