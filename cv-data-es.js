@@ -10,7 +10,7 @@ const cvDataEs = {
       "marital_status": "Matrimonio católico",
       "children": "Dos hijas"
     },
-    "summary": "Soy un Desarrollador Full-Stack experimentado con formación en Ingeniería Informática y un Máster en Diseño Gráfico Digital. Me apasiona el desarrollo de software y tengo experiencia tanto en tecnologías de frontend como de backend. Mi competencias incluyen PHP, Java, MySQL, JavaScript, HTML, CSS y varios frameworks como Laravel, React, Angular, entre otros. Mis habilidades de diseño complementan mi experiencia en desarrollo, brindando una perspectiva enriquecida en UI/UX y mejorando la interacción con los usuarios. Estoy familiarizado y aplico metodologías de ideación como el Diseño Centrado en el Usuario (HCD) y Design Thinking. Hablo español nativo, inglés fluído y francés conversacional.",
+    "summary": "Desarrollador Full-Stack experimentado con formación en Ingeniería Informática y un Máster en Diseño Gráfico Digital. Me apasiona el desarrollo de software y tengo experiencia tanto en tecnologías de frontend como de backend. Mi competencias incluyen PHP, Java, MySQL, JavaScript, HTML, CSS y varios frameworks como Laravel, React, Angular, entre otros. Mis habilidades de diseño complementan mi experiencia en desarrollo, brindando una perspectiva enriquecida en UI/UX y mejorando la interacción con los usuarios. Estoy familiarizado y aplico metodologías de ideación como el Diseño Centrado en el Usuario (HCD) y Design Thinking. Hablo español nativo, inglés fluído y francés conversacional.",
   },
   "languages": [
     {
@@ -58,7 +58,7 @@ const cvDataEs = {
   ],
   "work_experience": [
     {
-      "position": "Ingeniero Principal de Desarrollo",
+      "position": "Ingeniero Líder de Desarrollo",
       "company": "Offmizer",
       "location": "Francia (Remoto)",
       "start_date": "2020",
