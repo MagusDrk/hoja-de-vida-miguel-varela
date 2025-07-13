@@ -30,10 +30,7 @@ h5,
 h6 {
     font-family: 'Lato', sans-serif;
     margin-top: 0;
-
-    &:not(h1) {
-        margin-bottom: 0;
-    }
+    margin-bottom: 0;
 }
 
 header {
