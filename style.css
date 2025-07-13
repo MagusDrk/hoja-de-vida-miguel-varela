@@ -84,6 +84,11 @@ header {
     }
 }
 
+.chip {
+    padding: 0 0.5rem;
+    border-radius: 1rem;
+}
+
 .card,
 .chip {
     backdrop-filter: blur(0.5rem);
