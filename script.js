@@ -79,34 +79,35 @@ function createHeader(data) {
     const header = document.querySelector('header');
     header.classList.add('column');
     header.innerHTML = `
-        <div class="row float-right-top">
-            <button class="circular-button spanish" onClick="setLanguage('es')"></button>
-            <button class="circular-button english" onClick="setLanguage('en')"></button>
-            <button class="circular-button french" onClick="setLanguage('fr')"></button>
-        </div>
-        <div class="row nowrap">
+        <div class="row nowrap profile">
             <img class="photo" src="photo.jpg" alt="Miguel Varela">
-            <div>
+            <div class="titles">
                 <h1 class="name">${data.name}</h1>
                 <h2 class="title">${data.title}</h2>
-                <p class="summary">${data.summary}</p>
             </div>
+            <div class="language-switcher">
+                <button class="circular-button spanish" onClick="setLanguage('es')"></button>
+                <button class="circular-button english" onClick="setLanguage('en')"></button>
+                <button class="circular-button french" onClick="setLanguage('fr')"></button>
+            </div>
+            <p class="summary">${data.summary}</p>
         </div>
-        <div class="row flex-fill">
+
+        <div class="row flex-fill contact">
             <article class="card">
-                <span class="material-icons">phone</span></br>
+                <span class="material-icons">phone</span><br>
                 <a href="tel:${data.contact.phone}">${data.contact.phone}</a>
             </article>
             <article class="card">
-                <span class="material-icons">email</span></br>
+                <span class="material-icons">email</span><br>
                 <a href="mailto:${data.contact.email}">${data.contact.email}</a>
             </article>
             <article class="card">
-                <span class="material-icons">link</span></br>
+                <span class="material-icons">link</span><br>
                 <a href="https://${data.contact.linkedin}" target="_blank">${data.contact.linkedin}</a>
             </article>
             <article class="card">
-                <span class="material-icons">location_on</span></br>
+                <span class="material-icons">location_on</span><br>
                 ${data.contact.location}
             </article>
         </div>
