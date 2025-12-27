@@ -57,20 +57,20 @@ const cvDataEs = {
   ],
   "work_experience": [
     {
-      "position": "Ingeniero Líder de Desarrollo",
-      "company": "Offmizer",
-      "location": "Francia (Remoto)",
-      "start_date": "2020",
-      "end_date": "Presente",
-      "description": "Diseño e implemento la Suite de Apps Offmizer para la gestión de modelos de teletrabajo en empresas. Gestiono el desarrollo backend usando tecnologías basadas en PHP como Laravel, Slim y Twig, integrando bases de datos MySQL en Google Cloud. Trabajo en el frontend usando JavaScript y React en los proyectos más recientes, estableciendo conexiones API RESTful con backends de Laravel. Lidero y gestiono la ejecución de tareas, delegando y monitoreando el progreso con herramientas como Kanban, GitHub Projects, Slack y metodologías ágiles."
-    },
-    {
       "position": "Profesor de Cátedra",
       "company": "Universidad de La Sabana, Facultad de Ingeniería",
       "location": "Chía, Colombia",
       "start_date": "2016",
       "end_date": "Presente",
       "description": "Dicto asignaturas como Arquitectura de Software, Desarrollo Web, Programación Orientada a Objetos, Programación Creativa y Fundamentos de Tecnología. Introduzco a los estudiantes a una variedad de tecnologías y conceptos, incluyendo Laravel, Spring Boot, JavaScript, CSS, HTML, PHP, Java y Python, con un enfoque en frameworks modernos como React, Angular y Vue. Fomento la innovación y las habilidades de resolución de problemas usando metodologías como el Diseño Centrado en el Usuario."
+    },
+    {
+      "position": "Ingeniero Líder de Desarrollo",
+      "company": "Offmizer",
+      "location": "Francia (Remoto)",
+      "start_date": "2020",
+      "end_date": "Presente",
+      "description": "Diseño e implemento la Suite de Apps Offmizer para la gestión de modelos de teletrabajo en empresas. Gestiono el desarrollo backend usando tecnologías basadas en PHP como Laravel, Slim y Twig, integrando bases de datos MySQL en Google Cloud. Trabajo en el frontend usando JavaScript y React en los proyectos más recientes, estableciendo conexiones API RESTful con backends de Laravel. Lidero y gestiono la ejecución de tareas, delegando y monitoreando el progreso con herramientas como Kanban, GitHub Projects, Slack y metodologías ágiles."
     },
     {
       "position": "Ingeniero de Requerimientos",
@@ -103,16 +103,22 @@ const cvDataEs = {
   ],
   "work_references": [
     {
-      "name": "Jenny Robayo",
-      "position": "Diseñadora EdTech | IA Generativa y Productividad | Consultora de Tecnología | UX | Scrum Master",
-      "company": "Independiente",
-      "phone": "+57 3174317829 / +1 (438) 519-1107"
-    },
-    {
       "name": "Santiago Salinas",
       "position": "CEO - Cofundador",
       "company": "Offmizer",
       "phone": "+33 636159293"
+    },
+    {
+      "name": "Yosimar Díaz",
+      "position": "Profesor docencia planta - Facultad de Ingeniería",
+      "company": "Universidad de La Sabana",
+      "phone": "+57 3114674882"
+    },
+    {
+      "name": "Jenny Robayo",
+      "position": "Diseñadora EdTech | IA Generativa y Productividad | Consultora de Tecnología | UX | Scrum Master",
+      "company": "Independiente",
+      "phone": "+57 3174317829 / +1 (438) 519-1107"
     },
     {
       "name": "Sandra Milena Giraldo",
@@ -123,16 +129,16 @@ const cvDataEs = {
   ],
   "personal_references": [
     {
-      "name": "Andrés Felipe Ulloa",
-      "position": "Tester de Automatización de QA",
-      "company": "GlobalLogic",
-      "phone": "+57 304 3369761"
-    },
-    {
       "name": "Cristian Martínez",
       "position": "Ingeniero de Innovación y Desarrollo",
       "company": "Mansuba S.A.S.",
       "phone": "+57 312 474 2716"
+    },
+    {
+      "name": "Andrés Felipe Ulloa",
+      "position": "Tester de Automatización de QA",
+      "company": "GlobalLogic",
+      "phone": "+57 304 3369761"
     },
     {
       "name": "Michael Medina",

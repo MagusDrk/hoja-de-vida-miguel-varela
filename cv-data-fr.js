@@ -57,20 +57,20 @@ const cvDataFr = {
   ],
   "work_experience": [
     {
-      "position": "Ingénieur Principal de Développement",
-      "company": "Offmizer",
-      "location": "France (Télétravail)",
-      "start_date": "2020",
-      "end_date": "Présent",
-      "description": "Conception et mise en œuvre de la Suite d'Apps Offmizer pour la gestion des modèles de télétravail en les entreprises. Gestion du développement backend en utilisant des technologies basées sur PHP telles que Laravel, Slim et Twig, intégrant des bases de données MySQL sur Google Cloud. Travail sur le frontend en utilisant JavaScript et React dans les projets les plus récents, établissant des connexions API RESTful avec des backends Laravel. Je dirige et gère l'exécution des tâches, en déléguant et en surveillant les progrès avec des outils tels que Kanban, GitHub Projects, Slack et des méthodologies agiles."
-    },
-    {
       "position": "Professeur de Cours",
       "company": "Université de La Sabana, Faculté d'Ingénierie",
       "location": "Chía, Colombie",
       "start_date": "2016",
       "end_date": "Présent",
       "description": "J'enseigne des cours d'Architecture Logicielle, de Développement Web, de Programmation Orientée Objet, de Programmation Créative et de Fondamentaux de la Technologie. J'introduis les étudiants à une variété de technologies et de concepts, y compris Laravel, Spring Boot, JavaScript, CSS, HTML, PHP, Java et Python, avec un accent sur des frameworks modernes comme React, Angular et Vue. Je favorise l'innovation et les compétences en résolution de problèmes en utilisant des méthodologies telles que le Design Centré sur l'Utilisateur."
+    },
+    {
+      "position": "Ingénieur Principal de Développement",
+      "company": "Offmizer",
+      "location": "France (Télétravail)",
+      "start_date": "2020",
+      "end_date": "Présent",
+      "description": "Conception et mise en œuvre de la Suite d'Apps Offmizer pour la gestion des modèles de télétravail en les entreprises. Gestion du développement backend en utilisant des technologies basées sur PHP telles que Laravel, Slim et Twig, intégrant des bases de données MySQL sur Google Cloud. Travail sur le frontend en utilisant JavaScript et React dans les projets les plus récents, établissant des connexions API RESTful avec des backends Laravel. Je dirige et gère l'exécution des tâches, en déléguant et en surveillant les progrès avec des outils tels que Kanban, GitHub Projects, Slack et des méthodologies agiles."
     },
     {
       "position": "Ingénieur des Exigences",
@@ -103,25 +103,37 @@ const cvDataFr = {
   ],
   "work_references": [
     {
-      "name": "Jenny Robayo",
-      "position": "Designer EdTech | IA Générative et Productivité | Consultante en Technologie | UX | Scrum Master",
-      "company": "Indépendant",
-      "phone": "+57 3174317829 / +1 (438) 519-1107"
-    },
-    {
       "name": "Santiago Salinas",
-      "position": "PDG - Co-fondateur",
+      "position": "CEO - Cofondateur",
       "company": "Offmizer",
       "phone": "+33 636159293"
     },
     {
+      "name": "Yosimar Díaz",
+      "position": "Professeur titulaire d'enseignement - Faculté d'Ingénierie",
+      "company": "Université de La Sabana",
+      "phone": "+57 3114674882"
+    },
+    {
+      "name": "Jenny Robayo",
+      "position": "Designer EdTech | IA Générative et Productivité | Consultante en Technologie | UX | Scrum Master",
+      "company": "Indépendante",
+      "phone": "+57 3174317829 / +1 (438) 519-1107"
+    },
+    {
       "name": "Sandra Milena Giraldo",
-      "position": "Responsable du Département de Gestion des TI",
+      "position": "Cheffe du Département de Gestion des TI",
       "company": "Université de La Sabana",
       "phone": "+57 310 8032922"
     }
   ],
   "personal_references": [
+    {
+      "name": "Cristian Martínez",
+      "position": "Ingénieur en Innovation et Développement",
+      "company": "Mansuba S.A.S.",
+      "phone": "+57 312 474 2716"
+    },
     {
       "name": "Andrés Felipe Ulloa",
       "position": "Testeur d'Automatisation QA",
@@ -129,14 +141,8 @@ const cvDataFr = {
       "phone": "+57 304 3369761"
     },
     {
-      "name": "Cristian Martínez",
-      "position": "Ingénieur d'Innovation et de Développement",
-      "company": "Mansuba S.A.S.",
-      "phone": "+57 312 474 2716"
-    },
-    {
       "name": "Michael Medina",
-      "position": "Sponsor d'AOG",
+      "position": "Sponsor AOG",
       "company": "Derichebourg Aeronautical Services",
       "location": "Arabie Saoudite",
       "phone": "+57 310 208 0647"

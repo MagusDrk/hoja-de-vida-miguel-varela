@@ -10,7 +10,7 @@ const cvDataEn = {
       "marital_status": "Catholic Marriage",
       "children": "Two daughters"
     },
-    "summary": "I am an experienced Full-Stack Developer with a background in Computer/Informatics Engineering and Master’s in Digital Graphic Design. I am passionate about Software Development and have experience in both frontend and backend technologies. My proficiency includes PHP, MySql, JavaScript, HTML, CSS, and several frameworks like Laravel, React, Angular, and more. My design skills complement my development expertise, providing a rich perspective on UI/UX and enhancing user interactions. I am familiar with and apply ideation methodologies such as Human-Centered Design and Design Thinking. I speak Spanish natively, English fluently, and conversational French.",
+    "summary": "I am an experienced Full-Stack Developer with a background in Computer/Informatics Engineering and a Master’s in Digital Graphic Design. I am passionate about Software Development and have experience in both frontend and backend technologies. My proficiency includes PHP, MySql, JavaScript, HTML, CSS, and several frameworks like Laravel, React, Angular, and more. My design skills complement my development expertise, providing a rich perspective on UI/UX and enhancing user interactions. I am familiar with and apply ideation methodologies such as Human-Centered Design and Design Thinking. I speak Spanish natively, English fluently, and conversational French.",
   },
   "languages": [
     {
@@ -57,14 +57,6 @@ const cvDataEn = {
   ],
   "work_experience": [
     {
-      "position": "Lead Development Engineer",
-      "company": "Offmizer",
-      "location": "France (Remote)",
-      "start_date": "2020",
-      "end_date": "Present",
-      "description": "Design and implement the Offmizer App Suite for hybrid work models management. Manage backend development using PHP-based technologies such as Laravel, Slim, and Twig, integrating with MySQL databases on Google Cloud. Worked on the frontend using JavaScript and React for most recent projects and established RESTful API connections with Laravel Api backends. Lead and manage task execution, delegating and monitoring progress with tools like Kanban, GitHub Projects, Slack, and agile methodologies."
-    },
-    {
       "position": "Adjunct Professor",
       "company": "La Sabana University, Faculty of Engineering",
       "location": "Chía, Colombia",
@@ -73,12 +65,20 @@ const cvDataEn = {
       "description": "Teach courses in Software Architecture, Web Development, Object-Oriented Programming, Creative Programming, and Technology Fundamentals. Introduce students to a range of technologies and concepts, including Laravel, Spring Boot, JavaScript, CSS, HTML, PHP, Java, and Python, with a focus on modern development frameworks like React, Angular, and Vue. Fostered innovation and problem-solving skills using methodologies such as Human-Centered Design."
     },
     {
+      "position": "Lead Development Engineer",
+      "company": "Offmizer",
+      "location": "France (Remote)",
+      "start_date": "2020",
+      "end_date": "Present",
+      "description": "Design and implement the Offmizer App Suite for hybrid work models management. Manage backend development using PHP-based technologies such as Laravel, Slim, and Twig, integrating with MySQL databases on Google Cloud. Worked on the frontend using JavaScript and React for most recent projects and established RESTful API connections with Laravel Api backends. Lead and manage task execution, delegating and monitoring progress with tools like Kanban, GitHub Projects, Slack, and agile methodologies."
+    },
+    {
       "position": "Requirements Engineer",
       "company": "IT Management Department, University of La Sabana",
       "location": "Chía, Colombia",
       "start_date": "June 2013",
       "end_date": "June 2017",
-      "description": "Gather and document software requirements for the SIGA Project Collaborating with multiple university departments. Lead sessions with stakeholders, creating detailed functional specifications and working with the team to evaluate and propose technical solutions."
+      "description": "Gather and document software requirements for the SIGA Project collaborating with multiple university departments. Lead sessions with stakeholders, creating detailed functional specifications and working with the team to evaluate and propose technical solutions."
     }
   ],
   "education": [
@@ -103,16 +103,22 @@ const cvDataEn = {
   ],
   "work_references": [
     {
-      "name": "Jenny Robayo",
-      "position": "EdTech Designer | Generative AI and Productivity | Technology Consultant | UX | Scrum Master",
-      "company": "Independent",
-      "phone": "+57 3174317829 / +1 (438) 519-1107"
-    },
-    {
       "name": "Santiago Salinas",
       "position": "CEO - Co-founder",
       "company": "Offmizer",
       "phone": "+33 636159293"
+    },
+    {
+      "name": "Yosimar Díaz",
+      "position": "Full-time Teaching Professor - Faculty of Engineering",
+      "company": "University of La Sabana",
+      "phone": "+57 3114674882"
+    },
+    {
+      "name": "Jenny Robayo",
+      "position": "EdTech Designer | Generative AI and Productivity | Technology Consultant | UX | Scrum Master",
+      "company": "Independent",
+      "phone": "+57 3174317829 / +1 (438) 519-1107"
     },
     {
       "name": "Sandra Milena Giraldo",
@@ -123,16 +129,16 @@ const cvDataEn = {
   ],
   "personal_references": [
     {
-      "name": "Andrés Felipe Ulloa",
-      "position": "QA Automation Tester",
-      "company": "GlobalLogic",
-      "phone": "+57 304 3369761"
-    },
-    {
       "name": "Cristian Martínez",
       "position": "Innovation and Development Engineer",
       "company": "Mansuba S.A.S.",
       "phone": "+57 312 474 2716"
+    },
+    {
+      "name": "Andrés Felipe Ulloa",
+      "position": "QA Automation Tester",
+      "company": "GlobalLogic",
+      "phone": "+57 304 3369761"
     },
     {
       "name": "Michael Medina",
