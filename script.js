@@ -53,6 +53,7 @@ window.addEventListener('load', function () {
 });
 
 function setLanguage(lang) {
+    document.documentElement.lang = lang;
     document.title = `${cvData[lang].personal_information.name} - ${titles[lang].cv} (${lang.toUpperCase()})`;
     createCV(titles[lang], cvData[lang]);
 }
@@ -60,14 +61,14 @@ function setLanguage(lang) {
 function createCV(cvTitles, cvData) {
     clearContent();
     createHeader(cvData.personal_information);
-    createSection(cvTitles.work_experience, createWorkExperience(cvData.work_experience));
-    createSection(cvTitles.education, createEducation(cvData.education));
-    createSection(cvTitles.languages, createLanguages(cvData.languages));
-    createSection(cvTitles.technical_skills, createSkills(cvData.technical_skills));
-    createSection(cvTitles.soft_skills, createSkills(cvData.soft_skills));
-    createSection(cvTitles.work_references, createReferences(cvData.work_references));
-    createSection(cvTitles.personal_references, createReferences(cvData.personal_references));
-    createSection(cvTitles.awards, createAwards(cvData.awards));
+    createSection(cvTitles.work_experience, createWorkExperience(cvData.work_experience), 'work-experience');
+    createSection(cvTitles.education, createEducation(cvData.education), 'education');
+    createSection(cvTitles.languages, createLanguages(cvData.languages), 'languages');
+    createSection(cvTitles.technical_skills, createSkills(cvData.technical_skills), 'technical-skills');
+    createSection(cvTitles.soft_skills, createSkills(cvData.soft_skills), 'soft-skills');
+    createSection(cvTitles.work_references, createReferences(cvData.work_references), 'work-references');
+    createSection(cvTitles.personal_references, createReferences(cvData.personal_references), 'personal-references');
+    createSection(cvTitles.awards, createAwards(cvData.awards), 'awards');
 }
 
 function clearContent() {
@@ -114,8 +115,9 @@ function createHeader(data) {
     `;
 }
 
-function createSection(title, content, parent = 'main') {
+function createSection(title, content, id = null, parent = 'main') {
     const section = document.createElement('section');
+    if (id) section.id = id;
     if (title) {
         const h2 = document.createElement('h2');
         h2.innerText = title;
@@ -140,14 +142,21 @@ function createSkills(skillsArray) {
 }
 
 function createWorkExperience(experience) {
-    const experienceList = experience.map(job => `
+    const experienceList = experience.map(job => {
+        const startTime = job.start_date_iso
+            ? `<time datetime="${job.start_date_iso}">${job.start_date}</time>`
+            : job.start_date;
+        const endTime = job.end_date_iso
+            ? `<time datetime="${job.end_date_iso}">${job.end_date}</time>`
+            : job.end_date;
+        return `
         <li class="card experience">
             <h3>${job.position} - ${job.company}</h3>
             <em>${job.location}</em>
-            <em>${job.start_date} - ${job.end_date}</em>
+            <em>${startTime} - ${endTime}</em>
             <p>${job.description}</p>
-        </li>
-        `).join('');
+        </li>`;
+    }).join('');
     return `<ul class="column">${experienceList}</ul>`;
 }
 

@@ -10,7 +10,7 @@ const cvDataFr = {
       "marital_status": "Mariage catholique",
       "children": "Deux filles"
     },
-    "summary": "Je suis un Développeur Full-Stack expérimenté avec une formation en ingénierie informatique et Master en design graphique numérique. Je suis passionné par le développement de logiciels et j'ai de l'expérience à la fois dans les technologies de frontend et de backend. Mes compétences incluent PHP, MySQL, JavaScript, HTML, CSS et plusieurs frameworks tels que Laravel, React, Angular, entre autres. Mes compétences en design complètent mon expérience en développement, offrant une perspective riche en UI/UX et améliorant l'interaction avec les utilisateurs. Je suis familiarisé et applique des méthodologies d'idéation telles que le Design Centré sur l'Utilisateur (HCD) et le Design Thinking. Je parle espagnol, anglais courant et français conversationnel.",
+    "summary": "Développeur Full-Stack Senior avec plus de 13 ans d'expérience dans la conception d'applications web évolutives et la direction d'équipes pluridisciplinaires. Formation en ingénierie informatique et Master en design graphique numérique. Expertise en PHP, Laravel, JavaScript, React, TypeScript, MySQL et Google Cloud. Passionné par le développement logiciel, l'UI/UX et les méthodologies de Design Centré sur l'Humain et Design Thinking. Trilingue : espagnol (natif), anglais (courant), français (conversationnel).",
   },
   "languages": [
     {
@@ -43,8 +43,9 @@ const cvDataFr = {
     "NoSQL (Firestore)",
     "API RESTful",
     "Google Cloud Platform",
-    "GitHub",
+    "Git / GitHub",
     "Postman",
+    "Agile / Scrum",
     "Design Centré sur l'Humain",
     "Design Thinking",
   ],
@@ -57,28 +58,32 @@ const cvDataFr = {
   ],
   "work_experience": [
     {
-      "position": "Professeur de Cours",
-      "company": "Université de La Sabana, Faculté d'Ingénierie",
-      "location": "Chía, Colombie",
-      "start_date": "2016",
-      "end_date": "Présent",
-      "description": "J'enseigne des cours d'Architecture Logicielle, de Développement Web, de Programmation Orientée Objet, de Programmation Créative et de Fondamentaux de la Technologie. J'introduis les étudiants à une variété de technologies et de concepts, y compris Laravel, Spring Boot, JavaScript, CSS, HTML, PHP, Java et Python, avec un accent sur des frameworks modernes comme React, Angular et Vue. Je favorise l'innovation et les compétences en résolution de problèmes en utilisant des méthodologies telles que le Design Centré sur l'Utilisateur."
-    },
-    {
       "position": "Ingénieur Principal de Développement",
       "company": "Offmizer",
       "location": "France (Télétravail)",
       "start_date": "2020",
+      "start_date_iso": "2020",
       "end_date": "Présent",
-      "description": "Conception et mise en œuvre de la Suite d'Apps Offmizer pour la gestion des modèles de télétravail en les entreprises. Gestion du développement backend en utilisant des technologies basées sur PHP telles que Laravel, Slim et Twig, intégrant des bases de données MySQL sur Google Cloud. Travail sur le frontend en utilisant JavaScript et React dans les projets les plus récents, établissant des connexions API RESTful avec des backends Laravel. Je dirige et gère l'exécution des tâches, en déléguant et en surveillant les progrès avec des outils tels que Kanban, GitHub Projects, Slack et des méthodologies agiles."
+      "description": "Conçu et livré la plateforme Offmizer de gestion du travail hybride de sa conception à la production, la portant à plus de 2 000 utilisateurs actifs et 1 600 utilisateurs récurrents mensuels. Développé un système full-stack évolutif avec des API REST PHP/Laravel, MySQL sur Google Cloud Platform et un frontend React, permettant à des clients entreprises de gérer des modèles de travail hybride dans des équipes distribuées. Dirigé la livraison technique end-to-end en coordonnant la collaboration inter-équipes via Kanban, GitHub Projects et sprints agiles pour accélérer les sorties de fonctionnalités et maintenir la haute disponibilité du système."
+    },
+    {
+      "position": "Professeur de Cours",
+      "company": "Université de La Sabana, Faculté d'Ingénierie",
+      "location": "Chía, Colombie",
+      "start_date": "2016",
+      "start_date_iso": "2016",
+      "end_date": "Présent",
+      "description": "Dispense 5 cours par semestre dans 3 disciplines à plus de 120 étudiants, couvrant l'Architecture Logicielle, le Développement Web Full-Stack, la Programmation Orientée Objet et la Programmation Créative avec PHP, JavaScript, Python, Laravel, React, Angular et Vue. Restructuré les curriculums de laboratoire pour intégrer les méthodologies de Design Centré sur l'Humain et Design Thinking, alignant les contenus sur les pratiques réelles de l'industrie. Accompagne les étudiants dans les frameworks full-stack modernes et le développement agile, les préparant aux exigences du marché en ingénierie frontend et backend."
     },
     {
       "position": "Ingénieur des Exigences",
       "company": "Université de La Sabana, Département de Gestion des TI",
       "location": "Chía, Colombie",
       "start_date": "Juin 2013",
+      "start_date_iso": "2013-06",
       "end_date": "Juin 2017",
-      "description": "Collecte et document des exigences logicielles pour le Projet SIGA en collaboration avec plusieurs départements de L'Université. J'ai dirigé des sessions avec les parties prenantes, créant des spécifications fonctionnelles détaillées et travaillant avec l'équipe pour évaluer et proposer des solutions techniques."
+      "end_date_iso": "2017-06",
+      "description": "Piloté l'ingénierie des exigences du Projet SIGA — l'implémentation Oracle PeopleSoft à l'échelle institutionnelle de l'Université de La Sabana (modules : Campus Solutions, HCM, CRM, ERP et Business Intelligence) — couvrant plus de 80 % des unités universitaires dans les départements académiques, administratifs, RH et financiers. Animé des ateliers avec les parties prenantes et produit des spécifications fonctionnelles détaillées guidant un déploiement entreprise multi-modules de 4 ans réalisé par Entelgy Colombia et Oracle. Joué le rôle de pont entre les équipes techniques et métier pour réduire l'ambiguïté des exigences, contribuant à la livraison dans les délais des systèmes d'entreprise aujourd'hui utilisés par l'ensemble de la communauté universitaire."
     }
   ],
   "education": [

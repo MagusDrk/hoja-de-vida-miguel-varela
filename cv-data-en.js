@@ -10,7 +10,7 @@ const cvDataEn = {
       "marital_status": "Catholic Marriage",
       "children": "Two daughters"
     },
-    "summary": "I am an experienced Full-Stack Developer with a background in Computer/Informatics Engineering and a Master’s in Digital Graphic Design. I am passionate about Software Development and have experience in both frontend and backend technologies. My proficiency includes PHP, MySql, JavaScript, HTML, CSS, and several frameworks like Laravel, React, Angular, and more. My design skills complement my development expertise, providing a rich perspective on UI/UX and enhancing user interactions. I am familiar with and apply ideation methodologies such as Human-Centered Design and Design Thinking. I speak Spanish natively, English fluently, and conversational French.",
+    "summary": "Senior Full-Stack Developer with 13+ years of experience building scalable web applications and leading cross-functional teams. Background in Computer Engineering and an MSc in Digital Graphic Design. Expertise in PHP, Laravel, JavaScript, React, TypeScript, MySQL, and Google Cloud. Passionate about software development, UI/UX, and applying Human-Centered Design and Design Thinking methodologies. Trilingual: Spanish (native), English (proficient), French (conversational).",
   },
   "languages": [
     {
@@ -40,11 +40,12 @@ const cvDataEn = {
     "Vue",
     "Angular",
     "MySQL",
-    "NoSql (Firestore)",
+    "NoSQL (Firestore)",
     "RESTful APIs",
     "Google Cloud Platform",
-    "GitHub",
+    "Git / GitHub",
     "Postman",
+    "Agile / Scrum",
     "Human-Centered Design",
     "Design Thinking",
   ],
@@ -57,28 +58,32 @@ const cvDataEn = {
   ],
   "work_experience": [
     {
-      "position": "Adjunct Professor",
-      "company": "La Sabana University, Faculty of Engineering",
-      "location": "Chía, Colombia",
-      "start_date": "2016",
-      "end_date": "Present",
-      "description": "Teach courses in Software Architecture, Web Development, Object-Oriented Programming, Creative Programming, and Technology Fundamentals. Introduce students to a range of technologies and concepts, including Laravel, Spring Boot, JavaScript, CSS, HTML, PHP, Java, and Python, with a focus on modern development frameworks like React, Angular, and Vue. Fostered innovation and problem-solving skills using methodologies such as Human-Centered Design."
-    },
-    {
       "position": "Lead Development Engineer",
       "company": "Offmizer",
       "location": "France (Remote)",
       "start_date": "2020",
+      "start_date_iso": "2020",
       "end_date": "Present",
-      "description": "Design and implement the Offmizer App Suite for hybrid work models management. Manage backend development using PHP-based technologies such as Laravel, Slim, and Twig, integrating with MySQL databases on Google Cloud. Worked on the frontend using JavaScript and React for most recent projects and established RESTful API connections with Laravel Api backends. Lead and manage task execution, delegating and monitoring progress with tools like Kanban, GitHub Projects, Slack, and agile methodologies."
+      "description": "Architected and delivered the Offmizer hybrid work management platform from concept to production, scaling it to 2,000+ active users and 1,600+ recurring monthly users. Engineered a scalable full-stack system with PHP/Laravel REST APIs, MySQL on Google Cloud Platform, and a React frontend, enabling enterprise clients to manage distributed hybrid teams. Led end-to-end delivery as technical lead, coordinating cross-functional collaboration via Kanban, GitHub Projects, and Agile sprints to accelerate feature releases and sustain high system reliability."
+    },
+    {
+      "position": "Adjunct Professor",
+      "company": "La Sabana University, Faculty of Engineering",
+      "location": "Chía, Colombia",
+      "start_date": "2016",
+      "start_date_iso": "2016",
+      "end_date": "Present",
+      "description": "Deliver 5 courses per semester across 3 disciplines to 120+ students, covering Software Architecture, Full-Stack Web Development, Object-Oriented Programming, and Creative Programming using PHP, JavaScript, Python, Laravel, React, Angular, and Vue. Redesigned lab curricula to integrate Human-Centered Design and Design Thinking methodologies, aligning coursework with real-world industry practices. Mentor students in modern full-stack frameworks and agile development, equipping graduates with job-ready skills across frontend and backend engineering."
     },
     {
       "position": "Requirements Engineer",
       "company": "IT Management Department, University of La Sabana",
       "location": "Chía, Colombia",
       "start_date": "June 2013",
+      "start_date_iso": "2013-06",
       "end_date": "June 2017",
-      "description": "Gather and document software requirements for the SIGA Project collaborating with multiple university departments. Lead sessions with stakeholders, creating detailed functional specifications and working with the team to evaluate and propose technical solutions."
+      "end_date_iso": "2017-06",
+      "description": "Led requirements engineering for SIGA — the University of La Sabana's institution-wide Oracle PeopleSoft implementation (Campus Solutions, HCM, CRM, ERP, and Business Intelligence) — engaging 80%+ of university units across academic, administrative, HR, and finance departments. Facilitated stakeholder workshops and produced detailed functional specifications that guided a 4-year, multi-module enterprise rollout executed by Entelgy Colombia and Oracle. Bridged technical and business teams to reduce requirement ambiguity, contributing to the on-schedule delivery of enterprise systems now used by the entire university community."
     }
   ],
   "education": [

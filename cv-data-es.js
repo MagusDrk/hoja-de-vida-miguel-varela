@@ -10,7 +10,7 @@ const cvDataEs = {
       "marital_status": "Matrimonio católico",
       "children": "Dos hijas"
     },
-    "summary": "Desarrollador Full-Stack experimentado con formación en Ingeniería Informática y Máster en Diseño Gráfico Digital. Me apasiona el desarrollo de software y tengo experiencia tanto en tecnologías de frontend como de backend. Mi competencias incluyen PHP, MySQL, JavaScript, HTML, CSS y varios frameworks como Laravel, React, Angular, entre otros. Mis habilidades de diseño complementan mi experiencia en desarrollo, brindando una perspectiva enriquecida en UI/UX y mejorando la interacción con los usuarios. Estoy familiarizado y aplico metodologías de ideación como el Diseño Centrado en el Usuario (HCD) y Design Thinking. Hablo español nativo, inglés fluído y francés conversacional.",
+    "summary": "Desarrollador Full-Stack Senior con más de 13 años de experiencia construyendo aplicaciones web escalables y liderando equipos multidisciplinarios. Formación en Ingeniería Informática y Máster en Diseño Gráfico Digital. Expertise en PHP, Laravel, JavaScript, React, TypeScript, MySQL y Google Cloud. Apasionado por el desarrollo de software, UI/UX y la aplicación de metodologías de Diseño Centrado en el Usuario y Design Thinking. Trilingüe: español (nativo), inglés (fluido), francés (conversacional).",
   },
   "languages": [
     {
@@ -43,8 +43,9 @@ const cvDataEs = {
     "NoSql (Firestore)",
     "RESTful APIs",
     "Google Cloud Platform",
-    "GitHub",
+    "Git / GitHub",
     "Postman",
+    "Agile / Scrum",
     "Human-Centered Design",
     "Design Thinking",
   ],
@@ -57,28 +58,32 @@ const cvDataEs = {
   ],
   "work_experience": [
     {
-      "position": "Profesor de Cátedra",
-      "company": "Universidad de La Sabana, Facultad de Ingeniería",
-      "location": "Chía, Colombia",
-      "start_date": "2016",
-      "end_date": "Presente",
-      "description": "Dicto asignaturas como Arquitectura de Software, Desarrollo Web, Programación Orientada a Objetos, Programación Creativa y Fundamentos de Tecnología. Introduzco a los estudiantes a una variedad de tecnologías y conceptos, incluyendo Laravel, Spring Boot, JavaScript, CSS, HTML, PHP, Java y Python, con un enfoque en frameworks modernos como React, Angular y Vue. Fomento la innovación y las habilidades de resolución de problemas usando metodologías como el Diseño Centrado en el Usuario."
-    },
-    {
       "position": "Ingeniero Líder de Desarrollo",
       "company": "Offmizer",
       "location": "Francia (Remoto)",
       "start_date": "2020",
+      "start_date_iso": "2020",
       "end_date": "Presente",
-      "description": "Diseño e implemento la Suite de Apps Offmizer para la gestión de modelos de teletrabajo en empresas. Gestiono el desarrollo backend usando tecnologías basadas en PHP como Laravel, Slim y Twig, integrando bases de datos MySQL en Google Cloud. Trabajo en el frontend usando JavaScript y React en los proyectos más recientes, estableciendo conexiones API RESTful con backends de Laravel. Lidero y gestiono la ejecución de tareas, delegando y monitoreando el progreso con herramientas como Kanban, GitHub Projects, Slack y metodologías ágiles."
+      "description": "Diseñé y entregué la plataforma Offmizer de gestión de teletrabajo desde su concepción hasta producción, escalándola a más de 2,000 usuarios activos y 1,600 usuarios recurrentes mensuales. Desarrollé un sistema full-stack escalable con APIs REST en PHP/Laravel, MySQL en Google Cloud Platform y frontend en React, permitiendo a clientes corporativos gestionar modelos de trabajo híbrido en equipos distribuidos. Lideré la entrega técnica end-to-end coordinando la colaboración interfuncional mediante Kanban, GitHub Projects y sprints ágiles para acelerar lanzamientos de funcionalidades y mantener alta disponibilidad del sistema."
+    },
+    {
+      "position": "Profesor de Cátedra",
+      "company": "Universidad de La Sabana, Facultad de Ingeniería",
+      "location": "Chía, Colombia",
+      "start_date": "2016",
+      "start_date_iso": "2016",
+      "end_date": "Presente",
+      "description": "Dicto 5 asignaturas por semestre en 3 disciplinas a más de 120 estudiantes, cubriendo Arquitectura de Software, Desarrollo Web Full-Stack, Programación Orientada a Objetos y Programación Creativa con tecnologías como PHP, JavaScript, Python, Laravel, React, Angular y Vue. Rediseñé currículos de laboratorio para integrar metodologías de Diseño Centrado en el Usuario y Design Thinking, alineando los contenidos con prácticas reales de la industria. Mentoreo a estudiantes en frameworks full-stack modernos y desarrollo ágil, preparando egresados con habilidades aplicables tanto en ingeniería frontend como backend."
     },
     {
       "position": "Ingeniero de Requerimientos",
       "company": "Universidad de La Sabana, Departamento de Gestión de TI",
       "location": "Chía, Colombia",
       "start_date": "Junio 2013",
+      "start_date_iso": "2013-06",
       "end_date": "Junio 2017",
-      "description": "Recopilé y documenté los requerimientos de software para el Proyecto SIGA colaborando con múltiples departamentos de La Universidad. Lideré sesiones con los interesados, creando especificaciones funcionales detalladas y trabajando con el equipo de tecnologías para evaluar y proponer soluciones técnicas."
+      "end_date_iso": "2017-06",
+      "description": "Lideré la ingeniería de requerimientos del Proyecto SIGA — la implementación institucional de Oracle PeopleSoft en la Universidad de La Sabana (módulos: Campus Solutions, HCM, CRM, ERP e Inteligencia de Negocios) — cubriendo más del 80% de las unidades universitarias en departamentos académicos, administrativos, de RRHH y financieros. Facilité talleres con interesados y produje especificaciones funcionales detalladas que guiaron un despliegue empresarial multi-módulo de 4 años ejecutado por Entelgy Colombia y Oracle. Actué como puente entre equipos técnicos y de negocio para reducir la ambigüedad de requerimientos, contribuyendo a la entrega en cronograma de sistemas empresariales usados hoy por toda la comunidad universitaria."
     }
   ],
   "education": [

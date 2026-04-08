@@ -172,19 +172,42 @@ section h2 {
 }
 
 @media print {
+    html {
+        background-image: none;
+    }
+
     body {
         font-size: 10.5px;
+        background: white;
+        box-shadow: none;
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+        border: none;
+        margin: 0;
+        max-width: 100%;
+        padding: 1rem;
+    }
+
+    .card {
+        z-index: auto;
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+        box-shadow: none;
+        border: 1px solid #cccccc;
+        background-color: white;
+    }
+
+    .chip {
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+        box-shadow: none;
+        background-color: #f0f0f0;
     }
 
     .card,
     section:not(:has(.experience)) {
         page-break-inside: avoid;
         break-inside: avoid;
-    }
-
-    .chip,
-    .card {
-        background-color: rgb(250, 250, 250, 0.8);
     }
 
     .circular-button {
