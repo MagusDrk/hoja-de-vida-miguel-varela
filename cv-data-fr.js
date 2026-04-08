@@ -10,7 +10,7 @@ const cvDataFr = {
       "marital_status": "Mariage catholique",
       "children": "Deux filles"
     },
-    "summary": "Développeur Full-Stack Senior avec plus de 13 ans d'expérience dans la conception d'applications web évolutives et la direction d'équipes pluridisciplinaires. Formation en ingénierie informatique et Master en design graphique numérique. Expertise en PHP, Laravel, JavaScript, React, TypeScript, MySQL et Google Cloud. Passionné par le développement logiciel, l'UI/UX et les méthodologies de Design Centré sur l'Humain et Design Thinking. Trilingue : espagnol (natif), anglais (courant), français (conversationnel).",
+    "summary": "Développeur Full-Stack Senior avec plus de 13 ans d'expérience dans la conception d'applications web évolutives et la direction d'équipes pluridisciplinaires. Formation en ingénierie informatique et Master en design graphique numérique. Expertise en PHP, Laravel, JavaScript, React, TypeScript, MySQL et Google Cloud. Passionné par le développement logiciel, l'UI/UX et les méthodologies de Design Centré sur l'Humain et Design Thinking. Espagnol natif, anglais courant et notions de français.",
   },
   "languages": [
     {
@@ -73,7 +73,7 @@ const cvDataFr = {
       "start_date": "2016",
       "start_date_iso": "2016",
       "end_date": "Présent",
-      "description": "Dispense 5 cours par semestre dans 3 disciplines à plus de 120 étudiants, couvrant l'Architecture Logicielle, le Développement Web Full-Stack, la Programmation Orientée Objet et la Programmation Créative avec PHP, JavaScript, Python, Laravel, React, Angular et Vue. Restructuré les curriculums de laboratoire pour intégrer les méthodologies de Design Centré sur l'Humain et Design Thinking, alignant les contenus sur les pratiques réelles de l'industrie. Accompagne les étudiants dans les frameworks full-stack modernes et le développement agile, les préparant aux exigences du marché en ingénierie frontend et backend."
+      "description": "Dispense des cours d'Architecture Logicielle, Développement Web Full-Stack, Programmation Orientée Objet et Programmation Créative à plus de 100 étudiants par semestre, avec PHP, JavaScript, Python, Laravel, React, Angular et Vue. Restructuré les curriculums de laboratoire pour intégrer les méthodologies de Design Centré sur l'Humain et Design Thinking, alignant les contenus sur les pratiques réelles de l'industrie. Accompagne les étudiants dans les frameworks full-stack modernes et le développement agile, les préparant aux exigences du marché en ingénierie frontend et backend."
     },
     {
       "position": "Ingénieur des Exigences",
@@ -83,7 +83,7 @@ const cvDataFr = {
       "start_date_iso": "2013-06",
       "end_date": "Juin 2017",
       "end_date_iso": "2017-06",
-      "description": "Piloté l'ingénierie des exigences du Projet SIGA — l'implémentation Oracle PeopleSoft à l'échelle institutionnelle de l'Université de La Sabana (modules : Campus Solutions, HCM, CRM, ERP et Business Intelligence) — couvrant plus de 80 % des unités universitaires dans les départements académiques, administratifs, RH et financiers. Animé des ateliers avec les parties prenantes et produit des spécifications fonctionnelles détaillées guidant un déploiement entreprise multi-modules de 4 ans réalisé par Entelgy Colombia et Oracle. Joué le rôle de pont entre les équipes techniques et métier pour réduire l'ambiguïté des exigences, contribuant à la livraison dans les délais des systèmes d'entreprise aujourd'hui utilisés par l'ensemble de la communauté universitaire."
+      "description": "Piloté l'ingénierie des exigences du Projet SIGA — l'implémentation Oracle PeopleSoft HCM de l'Université de La Sabana — couvrant plus de 80 % des unités administratives dans les départements RH, paie et gestion des talents. Animé des ateliers avec les parties prenantes et produit des spécifications fonctionnelles détaillées guidant le déploiement entreprise réalisé par Entelgy Colombia et Oracle. Joué le rôle de pont entre les équipes techniques et métier pour réduire l'ambiguïté des exigences, contribuant à la livraison réussie des systèmes de gestion RH toujours en usage dans toute l'université."
     }
   ],
   "education": [

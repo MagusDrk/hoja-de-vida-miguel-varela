@@ -10,7 +10,7 @@ const cvDataEs = {
       "marital_status": "Matrimonio católico",
       "children": "Dos hijas"
     },
-    "summary": "Desarrollador Full-Stack Senior con más de 13 años de experiencia construyendo aplicaciones web escalables y liderando equipos multidisciplinarios. Formación en Ingeniería Informática y Máster en Diseño Gráfico Digital. Expertise en PHP, Laravel, JavaScript, React, TypeScript, MySQL y Google Cloud. Apasionado por el desarrollo de software, UI/UX y la aplicación de metodologías de Diseño Centrado en el Usuario y Design Thinking. Trilingüe: español (nativo), inglés (fluido), francés (conversacional).",
+    "summary": "Desarrollador Full-Stack Senior con más de 13 años de experiencia construyendo aplicaciones web escalables y liderando equipos multidisciplinarios. Formación en Ingeniería Informática y Máster en Diseño Gráfico Digital. Expertise en PHP, Laravel, JavaScript, React, TypeScript, MySQL y Google Cloud. Apasionado por el desarrollo de software, UI/UX y la aplicación de metodologías de Diseño Centrado en el Usuario y Design Thinking. Español nativo con competencia profesional en inglés.",
   },
   "languages": [
     {
@@ -73,7 +73,7 @@ const cvDataEs = {
       "start_date": "2016",
       "start_date_iso": "2016",
       "end_date": "Presente",
-      "description": "Dicto 5 asignaturas por semestre en 3 disciplinas a más de 120 estudiantes, cubriendo Arquitectura de Software, Desarrollo Web Full-Stack, Programación Orientada a Objetos y Programación Creativa con tecnologías como PHP, JavaScript, Python, Laravel, React, Angular y Vue. Rediseñé currículos de laboratorio para integrar metodologías de Diseño Centrado en el Usuario y Design Thinking, alineando los contenidos con prácticas reales de la industria. Mentoreo a estudiantes en frameworks full-stack modernos y desarrollo ágil, preparando egresados con habilidades aplicables tanto en ingeniería frontend como backend."
+      "description": "Dicto asignaturas de Arquitectura de Software, Desarrollo Web Full-Stack, Programación Orientada a Objetos y Programación Creativa a más de 100 estudiantes por semestre, usando PHP, JavaScript, Python, Laravel, React, Angular y Vue. Rediseñé currículos de laboratorio para integrar metodologías de Diseño Centrado en el Usuario y Design Thinking, alineando los contenidos con prácticas reales de la industria. Mentoreo a estudiantes en frameworks full-stack modernos y desarrollo ágil, preparando egresados con habilidades aplicables tanto en ingeniería frontend como backend."
     },
     {
       "position": "Ingeniero de Requerimientos",
@@ -83,7 +83,7 @@ const cvDataEs = {
       "start_date_iso": "2013-06",
       "end_date": "Junio 2017",
       "end_date_iso": "2017-06",
-      "description": "Lideré la ingeniería de requerimientos del Proyecto SIGA — la implementación institucional de Oracle PeopleSoft en la Universidad de La Sabana (módulos: Campus Solutions, HCM, CRM, ERP e Inteligencia de Negocios) — cubriendo más del 80% de las unidades universitarias en departamentos académicos, administrativos, de RRHH y financieros. Facilité talleres con interesados y produje especificaciones funcionales detalladas que guiaron un despliegue empresarial multi-módulo de 4 años ejecutado por Entelgy Colombia y Oracle. Actué como puente entre equipos técnicos y de negocio para reducir la ambigüedad de requerimientos, contribuyendo a la entrega en cronograma de sistemas empresariales usados hoy por toda la comunidad universitaria."
+      "description": "Lideré la ingeniería de requerimientos del Proyecto SIGA — la implementación de Oracle PeopleSoft HCM en la Universidad de La Sabana — cubriendo más del 80% de las unidades administrativas en departamentos de RRHH, nómina y gestión del talento. Facilité talleres con interesados y produje especificaciones funcionales detalladas que guiaron el despliegue empresarial ejecutado por Entelgy Colombia y Oracle. Actué como puente entre equipos técnicos y de negocio para reducir la ambigüedad de requerimientos, contribuyendo a la entrega exitosa de sistemas de gestión humana que permanecen en uso activo en toda la universidad."
     }
   ],
   "education": [

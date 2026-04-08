@@ -10,7 +10,7 @@ const cvDataEn = {
       "marital_status": "Catholic Marriage",
       "children": "Two daughters"
     },
-    "summary": "Senior Full-Stack Developer with 13+ years of experience building scalable web applications and leading cross-functional teams. Background in Computer Engineering and an MSc in Digital Graphic Design. Expertise in PHP, Laravel, JavaScript, React, TypeScript, MySQL, and Google Cloud. Passionate about software development, UI/UX, and applying Human-Centered Design and Design Thinking methodologies. Trilingual: Spanish (native), English (proficient), French (conversational).",
+    "summary": "Senior Full-Stack Developer with 13+ years of experience building scalable web applications and leading cross-functional teams. Background in Computer Engineering and an MSc in Digital Graphic Design. Expertise in PHP, Laravel, JavaScript, React, TypeScript, MySQL, and Google Cloud. Passionate about software development, UI/UX, and applying Human-Centered Design and Design Thinking methodologies. Native Spanish speaker with professional English proficiency.",
   },
   "languages": [
     {
@@ -73,7 +73,7 @@ const cvDataEn = {
       "start_date": "2016",
       "start_date_iso": "2016",
       "end_date": "Present",
-      "description": "Deliver 5 courses per semester across 3 disciplines to 120+ students, covering Software Architecture, Full-Stack Web Development, Object-Oriented Programming, and Creative Programming using PHP, JavaScript, Python, Laravel, React, Angular, and Vue. Redesigned lab curricula to integrate Human-Centered Design and Design Thinking methodologies, aligning coursework with real-world industry practices. Mentor students in modern full-stack frameworks and agile development, equipping graduates with job-ready skills across frontend and backend engineering."
+      "description": "Deliver courses covering Software Architecture, Full-Stack Web Development, Object-Oriented Programming, and Creative Programming to 100+ students per semester, using PHP, JavaScript, Python, Laravel, React, Angular, and Vue. Redesigned lab curricula to integrate Human-Centered Design and Design Thinking methodologies, aligning coursework with real-world industry practices. Mentor students in modern full-stack frameworks and agile development, equipping graduates with job-ready skills across frontend and backend engineering."
     },
     {
       "position": "Requirements Engineer",
@@ -83,7 +83,7 @@ const cvDataEn = {
       "start_date_iso": "2013-06",
       "end_date": "June 2017",
       "end_date_iso": "2017-06",
-      "description": "Led requirements engineering for SIGA — the University of La Sabana's institution-wide Oracle PeopleSoft implementation (Campus Solutions, HCM, CRM, ERP, and Business Intelligence) — engaging 80%+ of university units across academic, administrative, HR, and finance departments. Facilitated stakeholder workshops and produced detailed functional specifications that guided a 4-year, multi-module enterprise rollout executed by Entelgy Colombia and Oracle. Bridged technical and business teams to reduce requirement ambiguity, contributing to the on-schedule delivery of enterprise systems now used by the entire university community."
+      "description": "Led requirements engineering for SIGA — the University of La Sabana's Oracle PeopleSoft HCM enterprise implementation — covering 80%+ of administrative units across HR, payroll, and workforce management departments. Facilitated stakeholder workshops and produced detailed functional specifications that guided the enterprise rollout executed by Entelgy Colombia and Oracle. Bridged technical and business teams to reduce requirement ambiguity, contributing to the successful delivery of enterprise HR systems still in active use across the university."
     }
   ],
   "education": [
