@@ -90,6 +90,9 @@ function createHeader(data) {
                 <button class="circular-button spanish" onClick="setLanguage('es')"></button>
                 <button class="circular-button english" onClick="setLanguage('en')"></button>
                 <button class="circular-button french" onClick="setLanguage('fr')"></button>
+                <button class="circular-button print-button" onclick="window.print()" title="PDF">
+                    <span class="material-icons">download</span>
+                </button>
             </div>
             <p class="summary">${data.summary}</p>
         </div>

@@ -159,6 +159,18 @@ section h2 {
     }
 }
 
+.print-button {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .material-icons {
+        font-size: 1.1rem;
+        color: #555;
+    }
+}
+
 .spanish {
     background-image: url('https://upload.wikimedia.org/wikipedia/en/9/9a/Flag_of_Spain.svg');
 }
@@ -174,6 +186,8 @@ section h2 {
 @media print {
     html {
         background-image: none;
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
     }
 
     body {
@@ -188,7 +202,7 @@ section h2 {
         padding: 1rem;
     }
 
-    .card {
+    .card.card {
         z-index: auto;
         backdrop-filter: none;
         -webkit-backdrop-filter: none;
@@ -204,7 +218,7 @@ section h2 {
         background-color: #f0f0f0;
     }
 
-    .card,
+    .card.card,
     section:not(:has(.experience)) {
         page-break-inside: avoid;
         break-inside: avoid;
