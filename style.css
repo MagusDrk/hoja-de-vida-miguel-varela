@@ -202,20 +202,57 @@ section h2 {
         padding: 1rem;
     }
 
-    .card.card {
-        z-index: auto;
-        backdrop-filter: none;
-        -webkit-backdrop-filter: none;
-        box-shadow: none;
-        border: 1px solid #cccccc;
-        background-color: white;
+    header {
+        background: linear-gradient(135deg, #4A154B, #1264A3);
+        border-radius: 6px;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    header .name,
+    header .title,
+    header .summary,
+    header a,
+    header .card.card {
+        color: white;
+    }
+
+    header .contact {
+        margin-top: 0.75rem;
+    }
+
+    header .card.card {
+        background: rgba(255, 255, 255, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.35);
+    }
+
+    /* B — Accent Line on section headings */
+    section>h2 {
+        border-left: 3px solid #1264A3;
+        padding-left: 0.5rem;
+        color: #4A154B;
+        margin-bottom: 0.5rem;
     }
 
     .chip {
         backdrop-filter: none;
         -webkit-backdrop-filter: none;
         box-shadow: none;
-        background-color: #f0f0f0;
+        background-color: #ddeaf5;
+        color: #1264A3;
+    }
+
+    #noscript-cv {
+        color: #111;
+    }
+
+    .card.card {
+        z-index: auto;
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+        box-shadow: none;
+        border: 1px solid #1264A3;
+        background-color: white;
     }
 
     .card.card,

@@ -159,8 +159,7 @@ const cvDataFr = {
       "issued_by": "Université de La Sabana",
       "date_issued": "Mai 2011",
       "associated_with": "Programme d'Ingénierie Informatique",
-      "details": "Test standardisé en Colombie qui évalue les compétences générales et spécifiques des étudiants universitaires avant leur diplôme.",
-      "ref": "https://www.mineducacion.gov.co/1621/articles-140442_recurso_1_pdf.unknown"
+      "details": "Test standardisé en Colombie qui évalue les compétences générales et spécifiques des étudiants universitaires avant leur diplôme."
     },
     {
       "title": "Étudiant Méritoire",

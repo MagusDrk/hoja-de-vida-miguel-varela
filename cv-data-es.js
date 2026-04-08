@@ -159,8 +159,7 @@ const cvDataEs = {
       "issued_by": "Universidad de La Sabana",
       "date_issued": "Mayo 2011",
       "associated_with": "Programa de Ingeniería Informática",
-      "details": "Prueba estandarizada en Colombia que evalúa las habilidades generales y específicas de los estudiantes universitarios antes de graduarse.",
-      "ref": "https://www.mineducacion.gov.co/1621/articles-140442_recurso_1_pdf.unknown"
+      "details": "Prueba estandarizada en Colombia que evalúa las habilidades generales y específicas de los estudiantes universitarios antes de graduarse."
     },
     {
       "title": "Estudiante Meritorio",

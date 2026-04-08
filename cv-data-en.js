@@ -159,8 +159,7 @@ const cvDataEn = {
       "issued_by": "University of La Sabana",
       "date_issued": "May 2011",
       "associated_with": "Computer Engineering Program",
-      "details": "Standardized test in Colombia that assesses university students' general and specific skills before graduation.",
-      "ref": "https://www.mineducacion.gov.co/1621/articles-140442_recurso_1_pdf.unknown"
+      "details": "Standardized test in Colombia that assesses university students' general and specific skills before graduation."
     },
     {
       "title": "Meritorious Student",
